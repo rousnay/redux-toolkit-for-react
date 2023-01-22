@@ -7,7 +7,7 @@ import store from "./data/store";
 const container = document.getElementById("root");
 const root = createRoot(container);
 root.render(
-  <Provider>
-    <App Store={store} />
+  <Provider store={store}>
+    <App />
   </Provider>
 );
