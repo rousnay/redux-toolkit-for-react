@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import cartSlice from '../data/cartSlice';
 import {fetchAllProducts} from '../data/productSlice';
-// import productList from '../data/productList.json'
 import '../styles/home.scss'
 
 const Home = () => {
